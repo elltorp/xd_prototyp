@@ -1,0 +1,69 @@
+body {
+    margin: 0 auto;
+}
+
+/***** log in page ******/
+.kealogo {
+    padding-left: 170px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#logo {
+    background-color: #EA5045;
+}
+
+#input {
+    background-color: #F79D94;
+
+}
+
+.mail {
+    width: 259px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFDFD;
+    border-radius: 50px;
+
+}
+
+.password {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFDFD;
+    border-radius: 50px;
+
+}
+
+.continue {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #EA5045;
+    border-radius: 50px;
+
+}
+
+#bottom .fb {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFDFD;
+    border-radius: 50px;
+    border-color: #EA5045;
+    border-style: solid;
+
+}
+
+.continue h4 {
+    color: #FFFDFD;
+}
+
+.fb h4 {
+    color: #EA5045;
+}
