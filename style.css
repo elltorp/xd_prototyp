@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    padding-top: 45px;
+    font-family: sans-serif;
+
+}
+
+
+/***** menu start ****/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background-color: #EA5045;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo {
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+
+}
+
+header nav {
+    float: right;
+
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+
+
+}
+
+.profile_icon {
+    float: right;
+    margin-top: calc((50px - 16px) / 2);
+    margin-right: 16px;
+}
+
+.menu_toggle {
+    color: #ffffff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 0 20px;
+    }
+
+    .menu_toggle {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background-color: #3F3140;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    header nav ul li a:hover {
+        color: #F58E81;
+        background-color: #ffffff;
+
+    }
+}
+
+/*****menu slut *****/
+
+
+/****** log in ****/
+
+}
+
+/***** log in page ******/
+.kealogo {
+    padding-left: 170px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#logo {
+    background-color: #EA5045;
+}
+
+#input {
+    background-color: #F79D94;
+
+}
+
+.mail {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFDFD;
+    border-radius: 50px;
+
+}
+
+.password {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFDFD;
+    border-radius: 50px;
+
+}
+
+.continue {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #EA5045;
+    border-radius: 50px;
+
+}
+
+#bottom .fb {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFFDFD;
+    border-radius: 50px;
+    border-color: #EA5045;
+    border-style: solid;
+
+}
+
+.continue h4 {
+    color: #FFFDFD;
+}
+
+.fb h4 {
+    color: #EA5045;
+}
+
+/**** log in slut****/
+
+/**** front page start****/
+
+.container {
+    display: grid;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px;
+    grid-gap: 10px;
+    background-color: #F79D94;
+    width: 400px;
+}
+
+.item {
+    background-color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.item_4 {
+    grid-column: 1 / span 2;
+}
+
+.item_10 {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;
+}
+
+/**** front page slut****/
+
+
+
+
+/***** start afleveringar *****/
+section {
+    margin: 2vh;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+
+
+h2 {
+    color: #EA5045;
+}
+
+
+.col {
+    background-color: #F2F1F0;
+    height: 10vh;
+    width: 100%;
+    padding: 2vh;
+}
+
+.txt {
+    float: left;
+}
+
+.img {
+    float: right;
+}
+
+
+
+.col img {
+    height: 20px;
+    width: 20px;
+}
+
+/***** slut afleveringer*****/
+
+/*de vita boxarna som blir skjult fra start*/
+.previous_ass {
+    padding: 10px;
+    height: 70px;
+    /* sätt på senare
+    display: none;*/
+    background-color: white;
+}
