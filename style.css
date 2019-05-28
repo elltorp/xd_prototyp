@@ -16,7 +16,7 @@ body {
 }
 
 
-/***** menu start ****/
+/***** menu/burger start ****/
 header {
     position: absolute;
     top: 0;
@@ -25,6 +25,7 @@ header {
     background-color: #EA5045;
     width: 100%;
     box-sizing: border-box;
+    margin-right: 5vw;
 }
 
 header .logo {
@@ -121,9 +122,6 @@ header nav ul li a {
 
 /*****menu slut *****/
 
-
-/****** log in ****/
-
 }
 
 /***** log in page ******/
@@ -205,11 +203,14 @@ header nav ul li a {
     width: 400px;
 }
 
+
 .item {
     background-color: white;
     display: grid;
     justify-items: center;
     align-items: center;
+
+
 }
 
 .item_4 {
@@ -222,9 +223,6 @@ header nav ul li a {
 }
 
 /**** front page slut****/
-
-
-
 
 /***** start afleveringar *****/
 section {
