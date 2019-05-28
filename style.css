@@ -275,6 +275,11 @@ h2 {
 */
 }
 
+h3 {
+    margin-left: 2vw;
+    padding-top: 2vw;
+}
+
 .col img {
     height: 20px;
     width: 20px;
