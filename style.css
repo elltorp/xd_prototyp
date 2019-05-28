@@ -209,8 +209,6 @@ header nav ul li a {
     display: grid;
     justify-items: center;
     align-items: center;
-
-
 }
 
 .item_4 {
@@ -221,6 +219,14 @@ header nav ul li a {
     grid-column: 2 / span 2;
     grid-row: 4 / span 2;
 }
+
+.container .item {
+    font-family: Gibson;
+    color: #F79D94;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
 
 /**** front page slut****/
 
