@@ -1,0 +1,94 @@
+body {
+    margin: 0 auto;
+    background-color: #FAF7F7;
+}
+
+/***** log in page ******/
+#logobox {
+    background-color: #EA5045;
+    height: 40vw;
+
+}
+
+.kealogo {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15vw;
+}
+
+input[type="password"],
+input[type="mail"],
+input[type="submit"] {
+    width: 200px;
+    height: 15px;
+    background-color: #FFFDFD;
+    border-radius: 50px;
+    border: none;
+}
+
+#mail {
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+    background-color: #FFFDFD;
+}
+
+#password {
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+    background-color: #FFFDFD;
+}
+
+#continue {
+    border-radius: 25px;
+    padding: 27px;
+    width: 240px;
+    height: 15px;
+    background-color: #EA5045;
+    color: white;
+}
+
+#fb {
+    border-radius: 25px;
+    padding: 27px;
+    width: 240px;
+    height: 15px;
+    background-color: #FFFDFD;
+    border-color: #EA5045;
+    border-style: solid;
+    color: #EA5045;
+}
+
+
+form {
+    text-align: center;
+    padding-top: 20vw;
+}
+
+/*skapar mellanrum på mail/lösenboxar*/
+input {
+    margin-top: 3vw;
+}
+
+/*justerar mellanrum i mitten av allt*/
+.input2 {
+    margin-top: 30vw;
+}
+
+/*centrering av glömt passord,färg och underline gone*/
+.forgot_link p {
+    text-align: center;
+}
+
+.forgot_link a {
+    color: white;
+}
+
+forgot_link a:link {
+    text-decoration: none;
+}
+
+/***** slut log in page*****/
