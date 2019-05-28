@@ -44,18 +44,16 @@ input[type="submit"] {
 
 #continue {
     border-radius: 25px;
-    padding: 27px;
     width: 240px;
-    height: 15px;
+    height: 60px;
     background-color: #EA5045;
     color: white;
 }
 
 #fb {
     border-radius: 25px;
-    padding: 27px;
     width: 240px;
-    height: 15px;
+    height: 60px;
     background-color: #FFFDFD;
     border-color: #EA5045;
     border-style: solid;
