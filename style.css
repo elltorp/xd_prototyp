@@ -238,19 +238,20 @@ header nav ul li a {
 /***** start afleveringar *****/
 section {
     margin: 2vh;
+    margin-top: 4vh;
 }
 
 h1 {
     color: black;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
 
 }
 
 
-
 h2 {
     color: #EA5045;
+    padding-top: 3vh;
 }
 
 
@@ -274,20 +275,25 @@ h2 {
 
 .img {
     float: right;
-}
-
-
-.col_send {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 
 }
 
-.right_col {
-    display: flex;
-    align-items: flex-end;
+.avlveringsicon_1 {
+    float: right;
+    transform: scale(1.7);
+    margin-right: 2vw;
 }
+
+.avlveringsicon_2 {
+    float: right;
+    transform: scale(1.5);
+}
+
+.avlveringsicon_3 {
+    float: right;
+    transform: scale(1);
+    margin-right: 2.5vw;
+
 }
 
 .theme h3 {
@@ -314,6 +320,28 @@ h3 {
     background-color: white;
 }
 
+/***UPLOAD KNAPP***/
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
 
+.btn {
+    border: 1px solid grey;
+    color: black;
+    background-color: lightgray;
+    margin-left: 2vw;
+    font-weight: bold;
+    margin-right: 2vw;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
 
 /***** slut afleveringer*****/
