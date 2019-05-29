@@ -4,31 +4,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>afleveringer</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <div class="logo">
-        <img src="assets/kea_logo.svg" alt="kea logo">
-    </div>
-
-    <nav>
-        <ul>
-            <li><a href="#aktuelt">Aktuelt</a></li>
-            <li><a href="#skema">Skema</a></li>
-            <li><a href="afleveringer.html">Afleveringer</a></li>
-            <li><a href="#materialer">Materialer</a></li>
-            <li><a href="#chat">Chat</a></li>
-            <li><a href="#indstillinger">Indstillinger</a></li>
-        </ul>
-    </nav>
-    <div class="menu_toggle">☰</div>
-    <div class="profile_icon">
-        <img src="assets/profile.svg" alt="profil ikon">
-    </div>
-</header>
 
 <body>
+
+    <header>
+        <div class="logo">
+            <img src="assets/kea_logo.svg" alt="kea logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#aktuelt">Aktuelt</a></li>
+                <li><a href="#skema">Skema</a></li>
+                <li><a href="afleveringer.html">Afleveringer</a></li>
+                <li><a href="#materialer">Materialer</a></li>
+                <li><a href="#chat">Chat</a></li>
+                <li><a href="#indstillinger">Indstillinger</a></li>
+            </ul>
+        </nav>
+        <div class="menu_toggle">☰</div>
+        <div class="profile_icon">
+            <img src="assets/profile.svg" alt="profil ikon">
+        </div>
+    </header>
+
     <!--    <section id=afleveringer>-->
     <section id=assignments>
         <h1>Afleveringer</h1>
@@ -49,54 +51,66 @@
                 <h3>Aflever</h3>
                 <p>Tirsdag den.21/5/19 inden kl.22:00</p>
             </div>
-            <div class="img"><img src="assets/dims.svg" alt="pilupp">
+            <div class="right_col">
+                <form method="post" enctype="multipart/form-data">
+
+                    <label for="image">
+                        <input type="file" name="image" id="image" style="display:none;" />
+                        <div class="col_send"><img class="img" src="assets/dims.svg" alt="upload button" />
+                            <input class="img" type="submit" value="Send" name="submit" />
+                        </div>
+                    </label>
+                </form>
             </div>
+
+            <!--
+             <div class="img"><img src="assets/dims.svg" alt="pilupp">
+            </div> -->
         </div>
 
         <h2>Tidligere afleveringer</h2>
         <div class="theme">
-            <div class="theme_decription">
+            <div class="theme_decription collapsible">
 
-                <div class="col">
+                <div class="col ">
                     <h3>Tema 1</h3>
                     <div class="txt">
                         <p>Grundlæggende Web</p>
                     </div>
-                    <div class="img"><img src="assets/pilned.svg" alt="ned"></div>
-                    <form method="post" enctype="multipart/form-data">
-                        <input type="file" name="files[]" multiple />
-                        <input type="submit" value="Upload File" name="submit" />
-                    </form>
+                    <div class="img collaps_button"><img src="assets/pilned.svg" alt="ned"></div>
+
                 </div>
             </div>
-            <div class="previous_ass">
-                <h3>04.01.01-oppgavebeskrivelse Design Sprint</h3>
-                <div class="col">
+            <div class="content">
+                <div class="previous_ass">
+                    <h3>04.01.01-oppgavebeskrivelse Design Sprint</h3>
+                    <div class="col">
 
-                    <div class="txt">
-                        <p>Dit filnavn</p>
+                        <div class="txt">
+                            <p>Dit filnavn</p>
+                        </div>
+                        <div class="img"><img src="assets/pil.svg" alt="link"></div>
                     </div>
-                    <div class="img"><img src="assets/pil.svg" alt="link"></div>
                 </div>
-            </div>
-            <div class="previous_ass">
-                <h3>04.01.01-oppgavebeskrivelse Design Sprint</h3>
-                <div class="col">
+                <div class="previous_ass">
+                    <h3>04.01.01-oppgavebeskrivelse Design Sprint</h3>
+                    <div class="col">
 
-                    <div class="txt">
-                        <p>Dit filnavn</p>
+                        <div class="txt">
+                            <p>Dit filnavn</p>
+                        </div>
+                        <div class="img"><img src="assets/pil.svg" alt="link"></div>
                     </div>
-                    <div class="img"><img src="assets/pil.svg" alt="link"></div>
                 </div>
-            </div>
-            <div class="previous_ass">
-                <h3>04.01.01-oppgavebeskrivelse Design Sprint</h3>
-                <div class="col">
+                <div class="previous_ass">
+                    <h3>04.01.01-oppgavebeskrivelse Design Sprint</h3>
+                    <div class="col">
 
-                    <div class="txt">
-                        <p>Dit filnavn</p>
+                        <div class="txt">
+                            <p>Dit filnavn</p>
+                        </div>
+                        <div class="img"><img src="assets/pil.svg" alt="link"></div>
                     </div>
-                    <div class="img"><img src="assets/pil.svg" alt="link"></div>
                 </div>
             </div>
         </div>
@@ -104,7 +118,7 @@
         <div class="theme">
             <div class="theme_decription">
 
-                <div class="col">
+                <div class="col collapsible">
                     <h3>Tema2</h3>
                     <div class="txt">
                         <p>Grundlæggende Animation</p>
@@ -120,7 +134,7 @@
         <div class="theme">
             <div class="theme_decription">
 
-                <div class="col">
+                <div class="col collapsible">
                     <h3>Tema3</h3>
                     <div class="txt">
                         <p>Grundlæggende Indhold</p>
@@ -136,7 +150,7 @@
         <div class="theme">
             <div class="theme_decription">
 
-                <div class="col">
+                <div class="col collapsible">
                     <h3>Tema4</h3>
                     <div class="txt">
                         <p>Grundlæggende UX</p>
