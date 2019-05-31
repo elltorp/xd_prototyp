@@ -44,6 +44,7 @@ header .logo {
 
 header nav {
     float: right;
+    z-index: 1;
 
 }
 
@@ -127,7 +128,6 @@ header nav ul li a {
 
 /*****menu slut *****/
 
-}
 
 /***** log in page ******/
 .kealogo {
@@ -201,11 +201,11 @@ header nav ul li a {
 
 .container {
     display: grid;
-    grid-template-columns: 125px 125px 125px;
+    grid-template-columns: 120px 120px 120px;
     grid-template-rows: 125px 125px 125px 125px 125px 125px;
-    grid-gap: 10px;
+    grid-gap: 7.5px;
     background-color: #F79D94;
-    width: 400px;
+    width: 375px;
 }
 
 
@@ -214,22 +214,30 @@ header nav ul li a {
     display: grid;
     justify-items: center;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .item_4 {
     grid-column: 1 / span 2;
+    font-size: 2rem;
 }
 
 .item_10 {
     grid-column: 2 / span 2;
     grid-row: 4 / span 2;
+    font-size: 3rem;
+}
+
+
+.container a {
+    text-decoration: none;
 }
 
 .container .item {
     font-family: Gibson;
     color: #F79D94;
     font-weight: bold;
-    font-size: 1.6em;
+
 }
 
 
